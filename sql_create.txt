@@ -1,0 +1,7 @@
+CREATE TABLE pic_db
+(no INT,
+title CHAR(20),
+data LONGTEXT,
+dataname CHAR(255),
+bool_delete boolean,
+ PRIMARY KEY (no));
